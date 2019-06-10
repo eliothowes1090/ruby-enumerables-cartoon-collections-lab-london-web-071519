@@ -18,7 +18,7 @@ end
 def find_the_cheese(contains_cheddar)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  contains_cheddar.any? do |cheese|
+  contains_cheddar.each do |cheese|
     binding.pry
     if cheese_types.include?(cheese)
        return cheese
