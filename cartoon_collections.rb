@@ -21,5 +21,10 @@ def find_the_cheese(contains_cheddar)# code an argument here
   contains_cheddar.any? do |cheese|
     # binding.pry
     cheese_types.include?(cheese)
+      if true
+        return cheese
+      else 
+        return nil
+      end
   end
 end
