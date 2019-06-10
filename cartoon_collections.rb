@@ -22,7 +22,7 @@ def find_the_cheese(contains_cheddar)# code an argument here
     if contains_cheddar.include?(cheese)
       return cheese
     else
-      return nil
+  
     end
   end
 end
