@@ -20,6 +20,6 @@ def find_the_cheese(contains_cheddar)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   contains_cheddar.any? do |cheese|
     binding.pry
-    cheese_types.include?(cheese) ? puts cheese : nil
+    cheese_types.include?(cheese) ? p cheese : nil
   end
 end
